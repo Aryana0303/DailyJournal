@@ -1,20 +1,35 @@
-<%- include("partials/header"); -%>
-    <h1 class="ok">Home</h1>
-    <p> <%= startingContent %> </p>
+
+    
+      <%- include("partials/header"); -%>
+      <h1 class="ok">Home</h1>
+      <img class="ee"src="https://i.pinimg.com/564x/36/e4/a0/36e4a012b5a16124b09286dcc09fbdcf.jpg" alt="">
+      <h4 class="yy"> <%= startingContent %> </h4>
+  
+  
+     <%  posts.forEach(function(post){ %>
+  
+      <h1 class="ii"><%=post.title%></h1>
+      <p class="qw">
+      <%=post.content.substring(0, 100) + " ..."%>
+      <a href="/posts/<%=post._id%>">Read More</a>
+      <div class="op btn-group">
+        <a href="/delete/<%= post._id %>" class="kk btn btn-danger" role="button">Delete</a>
+        </div>
+        <div class="btn-group">
+          <a href="/edit/<%= post._id %>" class="btn btn-info" role="button">Edit</a>
+          </div>
+      </p>
+  
+  
+  
+      <% }) %>
+      <form class="" action="/home" method="post">
+        <button class="il btn btn-light btn-lg" type="submit" name="button">Compose New</button>
+      </form>
+      <%- include("partials/footer"); -%>
+    
+   
+    
+    
 
 
-  <%  posts.forEach(function(post){ %>
-
-    <h1 class="ii"><%=post.title%></h1>
-    <p>
-    <%=post.content.substring(0, 100) + " ..."%>
-    <a href="/posts/<%=post._id%>">Read More</a>
-    </p>
-
-
-    <% }) %>
-    <form class="" action="/home" method="post">
-      <button class="btn btn-primary" type="submit" name="button">Compose</button>
-    </form>
-
-<%- include("partials/footer"); -%>

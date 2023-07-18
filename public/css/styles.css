@@ -2,17 +2,109 @@ html {
   min-height: 100%;
   position: relative;
   
+  
+}
+
+.ol{
+  font-family: 'Yantramanav', sans-serif;
+  text-align: center;
+}
+
+.iq{
+  font-family: 'Yantramanav', sans-serif;
+  text-align: center;
+  margin-left: 680px;
+}
+
+.ie{
+  display: block;
+  margin: 0 auto;
+ 
+  width: 120px;
+  height:120px;
+  object-Fit: cover;
+  margin-Top:25px;
+  margin-bottom: 20px;
+}
+
+.kk{
+  margin-right: 10px;
+}
+
+
+
+.ee{
+  display: block;
+    margin: 0 auto;
+    border-Radius: 50%;
+    width: 200px;
+    height:200px;
+    object-Fit: cover;
+    margin-Top:25px;
+    margin-bottom: 40px;
 }
 
 .ok{
   text-align: center;
   font-size: 60px;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 30px;
+  
   
 }
 
+.nn{
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.yy{
+  font-family: 'Nunito', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+}
+
+
+
+.ll{
+  font-family: 'Yantramanav', sans-serif;
+  text-align: center;
+ 
+}
+
+.il{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  display: block;
+
+}
+
+.ww{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.pp{
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.op{
+  margin-left: 50px;
+}
+
+.qw{
+  font-family: 'Nunito', sans-serif;
+  margin-left: 50px;
+}
+
 .ii{
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  margin-left: 50px;
   
 }
 
@@ -30,9 +122,7 @@ html {
     font-size: 12px;
     letter-spacing: 5px;
 }
-.navbar-nav  li a:hover {
-    color: #1abc9c !important;
-}
+
 
 .footer-padding {
 	padding-bottom: 60px;
@@ -44,8 +134,10 @@ html {
 	bottom: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #C4DFDF;
+	background-color: #C1ECE4;
 }
+
+
 
 .footer p {
 	margin-top: 25px;

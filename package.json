@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "netlify deploy --prod"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,9 @@
     "express": "^4.16.3",
     "lodash": "^4.17.11",
     "mongodb": "^5.6.0",
-    "mongoose": "^5.13.17"
+    "mongoose": "^5.13.17",
+    "netlify-cli": "^15.9.0",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0"
   }
 }
